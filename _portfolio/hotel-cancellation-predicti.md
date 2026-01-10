@@ -32,7 +32,12 @@ This project aims to predict whether a booking will be cancelled based on custom
 - Business analysis & data storytelling  
 
 ## Visual Preview
-![Hotel Cancellation Analysis Pipeline](/images/pipeline.png)
+- Analysis Overview
+![Hotel Cancellation Analysis Overview](/images/pipeline.png)
+- Feature Importance
+![Hotel Cancellation Analysis Feature](/images/Feature_Importance.png)
+- Model Performance
+![Hotel Cancellation Analysis Evaluation](/images/Model_performance.png)
 
 ## Full Report
 📄 [Download the full project report (PDF)](/files/Hotel_reserve_cancellation_prediction_report.pdf)
