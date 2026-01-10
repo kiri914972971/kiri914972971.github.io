@@ -44,7 +44,7 @@ This project aims to predict whether a booking will be cancelled based on custom
 
 ---
 
-## 中文项目简介（摘要）
+## 中文项目摘要
 
 本项目以酒店历史预订数据为基础，构建预测模型来判断订单是否会被取消，  
 旨在帮助酒店提前识别高风险订单，从而减少因取消带来的收入损失。
