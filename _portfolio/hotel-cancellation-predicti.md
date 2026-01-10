@@ -35,7 +35,7 @@ This project aims to predict whether a booking will be cancelled based on custom
 ![Hotel Cancellation Analysis Pipeline](/images/pipeline.png)
 
 ## Full Report
-📄 [Download the full project report (PDF)](/files/Hotel_cancellation_crediction_report.pdf)
+📄 [Download the full project report (PDF)](/files/Hotel_reserve_cancellation_prediction_report.pdf)
 
 ---
 
