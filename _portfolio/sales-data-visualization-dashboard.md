@@ -4,7 +4,7 @@ collection: portfolio
 excerpt: "Designed an interactive sales dashboard to monitor performance, identify regional differences, and support management decision-making."
 date: 2020-07-01
 header:
-  teaser: projects/viz-teaser.png
+  teaser: projects/sales-teaser.png
 ---
 
 ## Project Background
