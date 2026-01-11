@@ -24,15 +24,15 @@ My work focuses on **data analysis**, **product thinking**, and **business insig
 ### 📌 Selected Projects
 - **Hotel Reservation Cancellation Prediction**  
   Predicting booking cancellations to support operational decisions.  
-  [View Project →](/portfolio/hotel-cancellation)
+  [View Project →](/portfolio/hotel-cancellation-predicti)
 
 - **Game Platform Analysis**  
   Pricing, discounts, and rating drivers across gaming platforms.  
-  [View Project →](/portfolio/game-platform-analysis)
+  [View Project →](/portfolio/game-platform-business-analysis)
 
 - **Business Data Visualization**  
   Interactive dashboards for sales and performance monitoring.  
-  [View Project →](/portfolio/data-visualization)
+  [View Project →](/portfolio/sales-data-visualization-dashboard)
 
 ---
 
