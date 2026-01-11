@@ -3,6 +3,7 @@ layout: archive
 title: ""
 permalink: /
 author_profile: true
+author: academicpages
 ---
 
 ## Hi, I'm Kiri 👋
