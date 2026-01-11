@@ -28,11 +28,11 @@ My work focuses on **data analysis**, **product thinking**, and **business insig
 
 - **Game Platform Analysis**  
   Pricing, discounts, and rating drivers across gaming platforms.  
-  [View Project →](/_portfolio/game-platform-business-analysis)
+  [View Project →](/portfolio/game-platform-business-analysis/)
 
 - **Business Data Visualization**  
   Interactive dashboards for sales and performance monitoring.  
-  [View Project →](/_portfolio/sales-data-visualization-dashboard)
+  [View Project →](/portfolio/sales-data-visualization-dashboard/)
 
 ---
 
