@@ -3,6 +3,8 @@ title: "Sales Data Visualization & Performance Monitoring Dashboard"
 collection: portfolio
 excerpt: "Designed an interactive sales dashboard to monitor performance, identify regional differences, and support management decision-making."
 date: 2020-07-01
+header:
+  teaser: /images/projects/viz-teaser.png
 ---
 
 ## Project Background
