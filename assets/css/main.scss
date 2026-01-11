@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* =========================
+   Sidebar fixes
+   ========================= */
+
+/* Allow long text (e.g. City University of Hong Kong) to wrap */
+.sidebar .author__urls li,
+.sidebar .author__urls a,
+.sidebar p {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Make sidebar slightly wider on desktop */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 300px;
+  }
+
+  .archive,
+  .page {
+    width: calc(100% - 300px);
+  }
+}
