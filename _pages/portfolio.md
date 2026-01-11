@@ -3,6 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /portfolio/
 author_profile: true
+author: academicpages
 ---
 
 Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
