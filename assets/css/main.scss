@@ -57,11 +57,30 @@
 /* Make sidebar slightly wider on desktop */
 @media (min-width: 64em) {
   .sidebar {
-    width: 150px;
+    width: 190px;
   }
 
   .archive,
   .page {
     width: calc(100% - 300px);
+  }
+}
+/* Make main content wider (desktop) */
+@media (min-width: 64em) {
+  .page,
+  .archive,
+  .home {
+    max-width: none;
+  }
+}
+@media (min-width: 64em) {
+  .initial-content {
+    max-width: none;
+    width: auto;
+  }
+
+  .page__inner-wrap,
+  .archive__wrapper {
+    max-width: none;
   }
 }
