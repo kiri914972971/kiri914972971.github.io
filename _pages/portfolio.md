@@ -5,6 +5,7 @@ permalink: /portfolio/
 collection: portfolio
 entries_layout: list
 author_profile: true
+author: academicpages
 ---
 
 Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
