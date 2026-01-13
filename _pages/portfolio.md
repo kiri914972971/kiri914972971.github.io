@@ -11,6 +11,30 @@ author: academicpages
 Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
 
 {% assign projects = site.portfolio | sort: "date" | reverse %}
-{% for post in projects %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
+
+<div class="portfolio-list">
+  {% for post in projects %}
+    <article class="portfolio-item">
+      {% if post.header.teaser %}
+        <a class="portfolio-item__teaser" href="{{ post.url | relative_url }}">
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        </a>
+      {% endif %}
+
+      <div class="portfolio-item__body">
+        <h2 class="archive__item-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="page__date">
+          <strong><i class="far fa-calendar-alt" aria-hidden="true"></i> Published:</strong>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </p>
+
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>
