@@ -122,3 +122,47 @@
     border-radius: 14px;
   }
 }
+/* =========================
+   Projects page: clean vertical cards
+   ========================= */
+
+.portfolio-list{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.portfolio-item{
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.portfolio-item__teaser{
+  flex: 0 0 320px;
+}
+
+.portfolio-item__teaser img{
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.portfolio-item__body{
+  flex: 1;
+}
+
+/* mobile: stack */
+@media (max-width: 48em){
+  .portfolio-item{
+    flex-direction: column;
+  }
+  .portfolio-item__teaser{
+    flex-basis: auto;
+  }
+  .portfolio-item__teaser img{
+    height: 200px;
+  }
+}
