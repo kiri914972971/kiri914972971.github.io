@@ -65,12 +65,13 @@
     width: calc(100% - 220px);
   }
 }
-/* Projects list spacing */
-.archive__item {
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
+/* Force portfolio to single column */
+.archive .grid__wrapper {
+  display: block !important;
 }
 
-.archive__item-teaser img {
-  border-radius: 10px;
+.archive .grid__item {
+  width: 100% !important;
+  float: none !important;
+  margin-bottom: 24px;
 }
